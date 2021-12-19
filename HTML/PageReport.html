@@ -1,0 +1,36 @@
+﻿<div id="page-wrap">
+    <section id="{PageLinkID}">
+        <h2>{PageName}</h2>
+        <hr class="Inpage1" />
+    </section>
+    <p>
+        <ul>
+            <li><b>Parent part no - </b>{ParentPart}</li>
+            <li><b>Total cost - </b>{TotalCost}</li>
+            <li><b>Total labor</b> - {TotalLabor}</li>
+        </ul>
+    </p>
+    <hr class="Inpage2" />
+    <table>
+        <thead>
+            <tr>
+                <th>Part No</th>
+                <th>Description</th>
+                <th>Drawing Number</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Supplier ID</th>
+                <th>MakeBuy</th>
+                <th>Labor</th>
+                <th>Machine Type</th>
+            </tr>
+        </thead>
+        <tbody>
+            {TableContent}
+        </tbody>
+    </table>
+    <p>
+        <a href="#PageList">Back to page list</a>
+    </p>
+</div>
+<br />
